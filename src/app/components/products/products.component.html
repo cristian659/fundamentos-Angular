@@ -16,6 +16,11 @@
 <p>
     {{'Hola BasCJHAF sjfdhSFK' | uppercase }}
 </p>
+<label >
+    <input type="checkbox"/>
+    <span class="checkbox">
+    </span>
+</label>
 <div class="products--grid" >
     <app-product [product]="product" *ngFor="let product of products"
     (addedProduct)="onAddToShopingCart($event)"></app-product>
